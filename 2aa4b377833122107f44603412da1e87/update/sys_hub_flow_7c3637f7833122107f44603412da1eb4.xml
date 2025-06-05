@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>intermediateFlowVersion=1.2,labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview>Loan application Agentic AI</display_name_after_preview>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>text2flow</generation_source>
+        <internal_name>loan_application_agentic_ai783</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Loan application Agentic AI783</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus>preview</substatus>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:12:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c3637f7833122107f44603412da1eb4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Loan application Agentic AI783</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banking Agent" source="x_snc_banking_ag_0">2aa4b377833122107f44603412da1e87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Agent">2aa4b377833122107f44603412da1e87</sys_scope>
+        <sys_update_name>sys_hub_flow_7c3637f7833122107f44603412da1eb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:13:03</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c3637f7833122107f44603412da1eb4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7c3637f7833122107f44603412da1eb4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7c3637f7833122107f44603412da1eb4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7c3637f7833122107f44603412da1eb4^sys_idNOT INb03637f7833122107f44603412da1eb7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7c3637f7833122107f44603412da1eb4</id>
+        <name>Loan application Agentic AI783</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:12:44</sys_created_on>
+        <sys_id>b03637f7833122107f44603412da1eb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:12:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b03637f7833122107f44603412da1eb7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7c3637f7833122107f44603412da1eb4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7c3637f7833122107f44603412da1eb4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7c3637f7833122107f44603412da1eb4"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7c3637f7833122107f44603412da1eb4"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7c3637f7833122107f44603412da1eb4^sys_idNOT IN453677f7833122107f44603412da1e05,c93677f7833122107f44603412da1e08"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>take input as loan application</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Loan application Agentic AI783">7c3637f7833122107f44603412da1eb4</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:12:46</sys_created_on>
+        <sys_id>453677f7833122107f44603412da1e05</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Banking Agent">2aa4b377833122107f44603412da1e87</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:12:55</sys_updated_on>
+        <ui_id>813637f7-d331-2210-eb2c-1f7fb645d5c9</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FUHPtpeyrFveFgkMFOg2QJPtS7cQKJKyidKUSlG5Iv++Q1GSFVuJk62z226BvHA4wzkzc3jE+PO9K/GGuSeuxplg7sS9wqI265u0kiTNsPzK5SrFqxQNFoqxDZM6JYXUChMNcZRXpcC3n/5heIkV4NBMuSf3LllzQRWT7snnLxOXUzgvSnwUsNhDmY8Q/MUBQbHPMj8KIx/HARwhcMYEuF62lewUpm/Lfpk2e9b2fhjmfLAbhaIGCpq47EYzSRlgyLGo2MTdYEmxLtRtb1EM03MptoY1lxpOdI3zTcXvIG+MjF/OoCrC7F6/TNveWXN+hjW+0KomulatK1kXnLDK9oOyHNdCnw5t1uG81LyQNsSWbaMLUW/kB9sOtz+gGxVY6gpAsNIUapC3ZeQX6+L6Y4dyyWXTk3ZTFASLfoW1VjyrtcFz7zJh57vBZWkmXqriijfBgGUzWwlYzHJRXEPSiq/kDDgAwGfQVzxbgv2sMX/Cipsq/oBjIPhh4la31anAVbWtBZqYfqsNEltZW0Nq22BCiOKl/h0SXLEW7sOkZz0wkHKTuxpQf5/NLyCoDwRNniRokAwIejpMOgakpeqe7f3YAS1VvaNRdYHQz0RWSP5/4KptwUHCVoUyuml69L2Mpd4izoIkiCMgLDA2DH2CvSzzQ5KhzAsHjD03HHOy2y1fH+NoCZtzJuiYti7Nxo62zn9Nbf0h6QqAaGqnx6XgsvlQAtA35nFDmy2LGxuuyD6bsaML5+4FnPaSZzk9VOELyOZcWgQjoDoNboa/q7+dsaWyfzQq+/PjUPm+L7Nv3UiXu0+HmUvnf2f88a4/kGkQMH8Yuyr/Qs6dq+i/6i4O6WV3zp5g2ZGfQ0/cLcjDL8dY9VZ33KYbkhqQreGwFlhqr2x6zemK6S3MzosW+hqLr2P7LTXTbqJNH5qUf0r+rWbvzOVMgoxEKKJTtsjJdJGhfJpk8/mU0jwmCfEW8IB6k1cez9MNjJuX8PJXjACjqhQrluZFLWlquzdgnxl/zlWlW+d9PfrI4NJJp4Db7Og1cxpvp/c+pFI5fe6tGC4GKvUudzro7fmVA9CdBrrTQ39doa/RtsUR35XH1rYl5qLpf6VZORggU6pQT2jNgdE9w4EXit9/B+q71HGM9KMqeQDrL/uvZNr84kELiMiBAhCWdiPv5of2laQTykOSEfoejhIM+uB5CHmIRiiOIi8OszzEEcoGknFWyL9qhOaRdgwQmJTTATkMtZWGrCgEw3JHGy5B739btohb5gU/nD78FD+R9N/ibacfvwYe9frtXgSDz3PM0Dz2KJnGkRdNFzkNpwnFwRQnWRD5lJFFfszP85e/AXSKwyZ8FAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create VTB Card">dc5c60692fc00300e8f802d3c18c9590</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>perform credit card agent</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Loan application Agentic AI783">7c3637f7833122107f44603412da1eb4</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:12:46</sys_created_on>
+        <sys_id>c93677f7833122107f44603412da1e08</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Banking Agent">2aa4b377833122107f44603412da1e87</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:12:46</sys_updated_on>
+        <ui_id>413637f7-9931-2210-5738-6d3f349565d7</ui_id>
+        <values>H4sIAAAAAAAA/+1STWvcMBD9K4vOxtheEnZ9axP2lDbQlL2EYMbSeC0qy64kb+Iu+e8drRXHCW1pCKG09GaNZ+Z9zLs+MA0Nspy9b8EIFrE9qN6/6VNI2ykYto+VDgx1OzQsPzBeSyUMapZf30RMCmo5STMOPFtnFU+SZZLgqlolmVjydMXXJ+tTWqGgRDXDewbvhs4/DVZIqzmG0kWY+jSrt0Z4IknE8M6hFkgMKlAWI9aAFuBaM7DcmZ4KBkFcajVMHbXUbtTUwJ2V3wh0mUUz3JztXVmUgdZUL4Ip9H8rbQ9q8Rnsl8UD/eocHFwRJne9CabxupUc7WiTwAp65c7mtbHhsnOy1eOIg1I9TLeqb/TH0SU2LZgdpbfECjvvgNcUBFZXdXs72bWR+mhW+KlaDmrWimB4vZGo/BGPF4kYOGdk2TvP8sBQYUPriwa6Tupd0Zl2L48riWET7xQ94kq1t0TFyp2OgXs5MZ0B4g3Vz4/lLRjptX2gNTR8HzE72DMF1j4qJK+Lr73nN+oNyorRHD/CjezcOwLYYxBxH01BvgCNr87xOuNZcvqTHKdiluMA9xT85SlO3zLFamT1WyFeBAn/k/zHk+yP8tokp+JXSc5gluQA9xT85UnO3irJbmT0oxQHsv9EZvumpN6/LbU33wHzrf0NSggAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7c3637f7833122107f44603412da1eb4"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7c3637f7833122107f44603412da1eb4^sys_idNOT IN453677f7833122107f44603412da1e0a,493677f7833122107f44603412da1e09,853677f7833122107f44603412da1e07"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8d3677f7833122107f44603412da1e09</block>
+        <comment>perform verification agent</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Loan application Agentic AI783">7c3637f7833122107f44603412da1eb4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Placeholder">4fa4aa3bfbb031100a4a3d6176af26d2</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:12:46</sys_created_on>
+        <sys_id>453677f7833122107f44603412da1e0a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Banking Agent">2aa4b377833122107f44603412da1e87</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:13:03</sys_updated_on>
+        <ui_id>4d3637f7-2a31-2210-04da-23d606e384e4</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">813677f7833122107f44603412da1e09</block>
+        <comment>perform loan agent</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Loan application Agentic AI783">7c3637f7833122107f44603412da1eb4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Placeholder">4fa4aa3bfbb031100a4a3d6176af26d2</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:12:46</sys_created_on>
+        <sys_id>493677f7833122107f44603412da1e09</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Banking Agent">2aa4b377833122107f44603412da1e87</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:13:01</sys_updated_on>
+        <ui_id>013637f7-8531-2210-d380-4b73b295e7d8</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">493677f7833122107f44603412da1e06</block>
+        <comment>perform sentiment analysis</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Loan application Agentic AI783">7c3637f7833122107f44603412da1eb4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Placeholder">4fa4aa3bfbb031100a4a3d6176af26d2</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:12:46</sys_created_on>
+        <sys_id>853677f7833122107f44603412da1e07</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Banking Agent">2aa4b377833122107f44603412da1e87</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:12:57</sys_updated_on>
+        <ui_id>013637f7-bc31-2210-62ff-131b570ab8cb</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7c3637f7833122107f44603412da1eb4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7c3637f7833122107f44603412da1eb4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7c3637f7833122107f44603412da1eb4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7c3637f7833122107f44603412da1eb4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7c3637f7833122107f44603412da1eb4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7c3637f7833122107f44603412da1eb4"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7c3637f7833122107f44603412da1eb4"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7c3637f7833122107f44603412da1eb4"/>
+</record_update>

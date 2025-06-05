@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0b3bf3bf833122107f44603412da1e64" label="Loan Application" max_length="40" name="x_snc_banking_ag_0_loan_application" type="collection">
+        <element label="CIBL score" max_length="10" name="cibl_score" type="string"/>
+        <element label="User name" max_length="50" name="user_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Activity" max_length="4000" name="activity" type="journal"/>
+        <element label="Salary" max_length="10" name="salary" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
